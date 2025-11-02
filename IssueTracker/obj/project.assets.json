@@ -3327,11 +3327,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rudhikshah/Documents/RealTimeIssueTracker/IssueTracker/IssueTracker.csproj",
+      "projectUniqueName": "/Users/rudhikshah/Projects/RealTimeIssueTracker/IssueTracker/IssueTracker.csproj",
       "projectName": "IssueTracker",
-      "projectPath": "/Users/rudhikshah/Documents/RealTimeIssueTracker/IssueTracker/IssueTracker.csproj",
+      "projectPath": "/Users/rudhikshah/Projects/RealTimeIssueTracker/IssueTracker/IssueTracker.csproj",
       "packagesPath": "/Users/rudhikshah/.nuget/packages/",
-      "outputPath": "/Users/rudhikshah/Documents/RealTimeIssueTracker/IssueTracker/obj/",
+      "outputPath": "/Users/rudhikshah/Projects/RealTimeIssueTracker/IssueTracker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rudhikshah/.nuget/NuGet/NuGet.Config"
