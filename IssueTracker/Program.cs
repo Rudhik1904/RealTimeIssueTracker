@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using IssueTracker.Components;
 using IssueTracker.Components.Account;
 using IssueTracker.Data;
+using IssueTracker.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,7 @@ builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<IdentityUserAccessor>();
 builder.Services.AddScoped<IdentityRedirectManager>();
 builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
+builder.Services.AddScoped<IIssueRepository, IssueRepository>();
 
 builder.Services.AddAuthentication(options =>
     {
